@@ -25,4 +25,3 @@ def agecheck(age, experience):
             if age > ELDERLY_DRIVER_AGE:
                 multiplier = ELDERLY_DRIVER_PREMIUM_MULTIPLIER
     return multiplier
-
