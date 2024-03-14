@@ -1,7 +1,5 @@
 import unittest
-
-def add(a, b):
-    return a + b
+from add import add
 
 class TestAddFunction(unittest.TestCase):
     def test_add(self):
